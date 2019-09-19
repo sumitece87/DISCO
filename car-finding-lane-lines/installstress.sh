@@ -1,0 +1,21 @@
+#!/bin/bash
+source ../config.sh
+
+ssh -o StrictHostKeyChecking=no root@$nodec101 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec102 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec103 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec104 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec105 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec106 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec107 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec108 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec109 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec110 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec111 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec112 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec113 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec114 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec115 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec116 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec117 "sudo apt-get install stress"
+ssh -o StrictHostKeyChecking=no root@$nodec118 "sudo apt-get install stress"
