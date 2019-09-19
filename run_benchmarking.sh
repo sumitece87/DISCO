@@ -1,0 +1,21 @@
+#!/bin/bash
+source ./config.sh
+
+ssh root@$nodec101 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c101.log 2> /var/log/bench$c101.log &"
+ssh root@$nodec102 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c102.log 2> /var/log/bench$c102.log &"
+ssh root@$nodec103 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c103.log 2> /var/log/bench$c103.log &"
+ssh root@$nodec104 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c104.log 2> /var/log/bench$c104.log &"
+ssh root@$nodec105 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c105.log 2> /var/log/bench$c105.log &"
+ssh root@$nodec106 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c106.log 2> /var/log/bench$c106.log &"
+ssh root@$nodec107 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c107.log 2> /var/log/bench$c107.log &"
+ssh root@$nodec108 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c108.log 2> /var/log/bench$c108.log &"
+ssh root@$nodec109 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c109.log 2> /var/log/bench$c109.log &"
+ssh root@$nodec110 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c110.log 2> /var/log/bench$c110.log &"
+ssh root@$nodec111 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c111.log 2> /var/log/bench$c111.log &"
+ssh root@$nodec112 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c112.log 2> /var/log/bench$c112.log &"
+ssh root@$nodec113 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c113.log 2> /var/log/bench$c113.log &"
+ssh root@$nodec114 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c114.log 2> /var/log/bench$c114.log &"
+ssh root@$nodec115 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c115.log 2> /var/log/bench$c115.log &"
+ssh root@$nodec116 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c116.log 2> /var/log/bench$c116.log &"
+ssh root@$nodec117 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c117.log 2> /var/log/bench$c117.log &"
+ssh root@$nodec118 "sudo apt-get update --assume-yes; sudo apt-get install python-pip --assume-yes; python2.7 bootstrap.py > /var/log/bench$c118.log 2> /var/log/bench$c118.log &"
